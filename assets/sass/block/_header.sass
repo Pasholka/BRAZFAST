@@ -1,0 +1,32 @@
+.header
+.navigation
+  &-logo
+    max-width: 320px
+    max-height: 175px
+  &-wrapper
+    gap: 85px
+  &-tel
+    font-style: normal
+    font-weight: 800
+    font-size: 50px
+    line-height: 1.2
+    color: #BD171B
+  &-phone
+    max-width: 80px
+    max-height: 80px
+@media screen and ( max-width: 1200px )
+  .navigation
+    &-tel
+      font-size: 30px
+@media screen and ( max-width: 992px )
+  .navigation
+    &-wrapper
+      display: none !important
+@media screen and ( max-width: 500px )
+  .navigation
+    &-logo
+      max-width: 200px
+    &-phone
+      max-width: 40px
+    &-tel
+      font-size: 20px
